@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box; 
+}
+
+
+body{
+	background-image:url(fondo2.jpg);
+	background-color:#bdc3c7;
+	font-font-family:'Source Sans Pro', sans-serif;
+}
+
+
+main{
+	width: 100%;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1280px;
+}
+
+#fondoa{
+ background-image: url(../img/fondoa.jpg);
+ background-color:#bdc3c7;
+ background-size: cover;
+}
+
+#fondob{
+	background-image: url(../img/fondob.jpg);
+	background-size: cover;
+}
+
+
+
+header{
+
+	width:100%;
+	height:80px;
+	background-color:#EA2027;
+	padding-left: 5%;
+	padding-top: 0.80%;
+}
+
+
+nav{
+	width: 100%;
+	height:60px;
+	background-color:#1e272e;
+}
+
+section{
+	width:100%;
+	height: 500px;
+}
+
+#seccionformulario{
+	width:100%;
+	height: 900px;
+	background-color: #dfe6e9;
+	background-size: cover;
+}
+
+#seccionindex{
+	width:100%;
+	height: 610px;
+	max-height: 670px;
+	background-image: url(../img/fondowb.jpg);
+	background-size: cover;
+}
+
+#secciongaleria{
+	width:100%;
+	height:650px;
+	background-color:#dfe6e9;
+}
+
+#seccionpersonajes{
+	width:100%;
+	height:1050px;
+	background-color: #dfe6e9;
+}
+
+.imagenpersonajesa{
+	margin-left:10%;
+}
+.imagenpersonajesb{
+	margin-left:12%;
+}
+
+footer{
+	width: 100%;
+	height:60px;
+	background-color:#9c88ff;
+	}
+
+
+#cajitaindex{
+	width: 400px;
+	height: 100px;
+	background-color: #EA2027;
+	opacity: .7;
+	margin-left: 6%;
+	padding-top: 3%;
+	padding-left: 3%;
+
+}
+
+#boxescenasa{
+	width: 55%;
+	height: 650px;
+	padding-top:3%;
+	padding-left:5%;
+	padding-right:5%;
+	background-color: #dfe6e9;
+	float:left;
+}
+
+#boxescenasb{
+	width: 45%;
+	height: 650px;
+	padding-left:1%;
+	padding-top: 7.5%;
+	background-color: #dfe6e9;
+	float: right;
+}
+
+#boxformularioa{
+    width:100%;
+	height: 900px;
+	background-color: #74b9ff;
+	padding-left:5%;
+	padding-top: 3%;
+	padding-right:2%;
+	background-image: url(../img/whitebearamarillob.jpg);
+}
+
+#boxformulario{
+	width:50%
+	height:500px;
+	margin-top: 40px;
+	background-color:#ff4757;
+	float:left;
+	padding:2%;
+	font-family:'Source Sans Pro', sans-serif;
+}
+
+.btn{
+    width:50%;
+	height:35px;
+	color:#EA2027;
+	background-color:#ffdd59;
+	margin-left: 26%;
+	border-radius: 5px;
+}
+
+.cajota{
+ width: 100%;
+ height: 100px;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu{
+	margin-left: 34%;
+	padding-top: 1%;
+}
+
+#menu li a{
+  text-decoration:none;
+  width: 15%;
+  font-size:20px;
+  float:left;
+  text-align: center;
+  padding:0.5%;
+  margin-right:2%;
+  color: #f5f6fa;
+  background-color:#1e272e;
+  border-radius: 5px;
+}
+
+
+
+#boxa{
+	width: 33%;
+	height: 60px;
+	background-color:#1e272e;
+	float:right;
+	padding-left: 15%;
+	padding-top: 1.2%;
+}
+
+#boxb{
+    width: 33%;
+	height: 60px;
+	background-color:#1e272e;
+    float:left;
+    padding-left: 6%;
+    padding-top: 1.2%;
+}
+
+#boxc{
+    width: 34%;
+	height: 60px;
+	background-color:#1e272e;
+	float:left;
+	padding-left: 12%;
+	padding-top: 0.6%;
+}
+
+#personajesa{
+    width:50%;
+	height:1050px;
+	padding-left:5%;
+	padding-top: 3%;
+	padding-right:2%;
+	background-color:#dfe6e9;
+	float:left;
+
+}
+
+#personajesb{
+    width:50%;
+	height:1050px;
+	padding-top: 9.8%;
+	padding-right: 5%;
+	padding-left: 4%;
+	background-color:#dfe6e9;
+	float:right;
+}
+
+
+h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #ecf0f1;
+	display: inline;
+	}
+
+p{
+	font-family:'Source Sans Pro', sans-serif;
+	text-align: justify;
+}
+
+h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	display: inline;
+	font-weight: medium; 
+}
+
+.titulos{
+	font-size: 30px;
+	color: #d63031;
+	font-weight:bold;
+}
+
+.tituloformu{
+	font-size:20px;
+	color: #ffdd59;
+	font-weight:bold;
+}
+
+.tituloformulario{
+	font-size: 30px;
+	color: #d63031;
+	font-weight:bold;
+}
+
+.titulopersonajes{
+	font-size: 30px;
+	color: #d63031;
+	font-weight:bold;
+	
+}
+
+.textocajitaindex{
+	font-family:'Source Sans Pro', sans-serif;
+	text-align: justify;
+	color: #ffffff;
+}
